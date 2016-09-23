@@ -48,8 +48,8 @@ lightbox = new Lightbox options
   LightboxOptions = (function() {
 
     function LightboxOptions() {
-      this.fileLoadingImage = 'images/loading.gif';
-      this.fileCloseImage = 'images/close.png';
+      this.fileLoadingImage = 'https://2.bp.blogspot.com/-WWB36bqgwBE/V-TjNn8AUhI/AAAAAAAAbwA/1LkrhbHTlakksnxUZdK-woempZhpiQULQCLcB/s1600/loading.gif';
+      this.fileCloseImage = 'https://1.bp.blogspot.com/-R8Aa_9vCw2Y/V-TjXLUIJFI/AAAAAAAAbwE/tdG9kTUb2rM4QpzR9dXhitI4XLR1edwBgCLcB/s1600/close.png';
       this.resizeDuration = 700;
       this.fadeDuration = 500;
       this.labelImage = "Image";
