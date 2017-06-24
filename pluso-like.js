@@ -319,27 +319,11 @@
   if(!w.pluso.lang) w.pluso.lang={};
 
   pluso.lang['ru']= {
-    'close':'Ð—Ð°ÐºÑ€Ñ‹Ñ‚ÑŒ',
-    'get':'ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚Ðµ ÑÐ²Ð¾Ð¸ ÐºÐ½Ð¾Ð¿ÐºÐ¸',
-    'share':'ÐŸÐ¾Ð´ÐµÐ»Ð¸Ñ‚ÐµÑÑŒ Ñ Ð´Ñ€ÑƒÐ·ÑŒÑÐ¼Ð¸!',
-    'bookmark':'Ð¡ÐºÐ¾Ð¿Ð¸Ñ€ÑƒÐ¹Ñ‚Ðµ Ð¸ Ð´Ð¾Ð±Ð°Ð²ÑŒÑ‚Ðµ ÑÑ‚Ñƒ ÑÑÑ‹Ð»ÐºÑƒ Ð² Ð—Ð°ÐºÐ»Ð°Ð´ÐºÐ¸',
-    'buy':'ÐšÑƒÐ¿Ð¸Ñ‚ÑŒ'
-  };
-
-  pluso.lang['ua'] = {
-    'close':'Ð—Ð°ÐºÑ€Ð¸Ñ‚Ð¸',
-    'get':'ÐžÑ‚Ñ€Ð¸Ð¼Ð°Ñ”Ñ‚Ðµ ÑÐ²Ð¾Ñ— ÐºÐ½Ð¾Ð¿ÐºÐ¸',
-    'share':'ÐŸÐ¾Ð´Ñ–Ð»Ð¸Ñ‚ÐµÑÑ Ð· Ð´Ñ€ÑƒÐ·ÑÐ¼Ð¸!',
-    'bookmark':'Ð¡ÐºÐ¾Ð¿Ñ–ÑŽÐ¹Ñ‚Ðµ Ñ‚Ð° Ð´Ð¾Ð´Ð°Ð¹Ñ‚Ðµ Ñ†ÑŽ Ð¿Ð¾ÑÐ¸Ð»Ð°Ð½Ð½Ñ Ð² Ð—Ð°ÐºÐ»Ð°Ð´ÐºÐ¸',
-    'buy':'ÐšÑƒÐ¿Ð¸Ñ‚Ð¸'
-  };
-
-  pluso.lang['by'] = {
-    'close':'Ð—Ð°Ñ‡Ñ‹Ð½Ñ–Ñ†ÑŒ',
-    'get':'ÐÑ‚Ñ€Ñ‹Ð¼Ð°ÐµÑ†Ðµ ÑÐ²Ð°Ðµ ÐºÐ½Ð¾Ð¿ÐºÑ–',
-    'share':'ÐŸÐ°Ð´Ð·ÑÐ»Ñ–Ñ†ÐµÑÑ Ð· ÑÑÐ±Ñ€Ð°Ð¼Ñ–!',
-    'bookmark':'Ð¡ÐºÐ°Ð¿Ñ–ÑŽÐ¹Ñ†Ðµ Ñ– Ð´Ð°Ð´Ð°Ð¹Ñ†Ðµ Ð³ÑÑ‚ÑƒÑŽ ÑÐ¿Ð°ÑÑ‹Ð»ÐºÑƒ Ñž Ð—Ð°ÐºÐ»Ð°Ð´ÐºÑ–',
-    'buy':'ÐšÑƒÐ¿Ñ–Ñ†ÑŒ'
+    'close':'ГђвЂ”ГђВ°ГђВєГ‘в‚¬Г‘вЂ№Г‘вЂљГ‘Е’',
+    'get':'ГђЕёГђВѕГђВ»Г‘Ж’Г‘вЂЎГђВёГ‘вЂљГђВµ Г‘ВЃГђВІГђВѕГђВё ГђВєГђВЅГђВѕГђВїГђВєГђВё',
+    'share':'ГђЕёГђВѕГђВґГђВµГђВ»ГђВёГ‘вЂљГђВµГ‘ВЃГ‘Е’ Г‘ВЃ ГђВґГ‘в‚¬Г‘Ж’ГђВ·Г‘Е’Г‘ВЏГђВјГђВё!',
+    'bookmark':'ГђВЎГђВєГђВѕГђВїГђВёГ‘в‚¬Г‘Ж’ГђВ№Г‘вЂљГђВµ ГђВё ГђВґГђВѕГђВ±ГђВ°ГђВІГ‘Е’Г‘вЂљГђВµ Г‘ВЌГ‘вЂљГ‘Ж’ Г‘ВЃГ‘ВЃГ‘вЂ№ГђВ»ГђВєГ‘Ж’ ГђВІ ГђвЂ”ГђВ°ГђВєГђВ»ГђВ°ГђВґГђВєГђВё',
+    'buy':'ГђЕЎГ‘Ж’ГђВїГђВёГ‘вЂљГ‘Е’'
   };
 
   pluso.lang['en'] = {
@@ -513,41 +497,10 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
     ['twitter','Twitter',2,2,'#00abf0'],
     ['google','Google+',7,5,'#be3308'],
     ['moimir','Мой Мир@Mail.Ru',8,7,'#2f69a1'],
-    ['pinterest','Pinterest',6,17,'#ce1d1f'],
-    ['livejournal','LiveJournal',9,6,'#6899c4'],
-    ['tumblr','Tumblr',3,22,'#2e4e67'],
-    ['liveinternet','LiveInternet',10,8,'#27819b'],
-    ['springpad','Springpad',11,19,'#f7b42f'],
-    ['stumbleupon','StumbleUpon',12,20,'#ed4713'],
-    ['myspace','mySpace',13,15,'#1d1d1d'],
-    ['formspring','Formspring.me',14,13,'#4693d7'],
-    ['blogger','Blogger',15,9,'#f58220'],
-    ['digg','Digg',16,11,'#165495'],
-    ['surfingbird','Surfingbird',17,21,'#14aef8'],
-    ['bobrdobr','Ð‘Ð¾Ð±Ñ€Ð”Ð¾Ð±Ñ€',18,24,'#763c34'],
     ['readability','Readability',19,18,'#9d0000'],
-    ['instapaper','Instapaper',20,14,'#6b6b6b'],
-    ['evernote','Evernote',21,12,'#75bb1e'],
-    ['delicious','Delicious',26,10,'#003bd8'],
-    ['vkrugu','Ð’ ÐšÑ€ÑƒÐ³Ñƒ Ð”Ñ€ÑƒÐ·ÐµÐ¹',25,25,'#e95e12'],
-    ['pinme','Pinme',27,16,'#f47a24'],
-    ['yandex','Ð¯.Ñ€Ñƒ',28,23,'#e70505'],
-    ['yazakladki','Ð¯Ð½Ð´ÐµÐºÑ.Ð—Ð°ÐºÐ»Ð°Ð´ÐºÐ¸',29,29,'#ff0000'],
-    ['moikrug','ÐœÐ¾Ð¹ÐšÑ€ÑƒÐ³',30,30,'#c71b1a'],
-    ['googlebookmark','Google закладки',31,31,'#0e41f4'],
-    ['yahoo','Yahoo Ð·Ð°ÐºÐ»Ð°Ð´ÐºÐ¸',32,32,'#7b0099'],
-    ['moemesto','ÐœÐ¾Ñ‘ÐœÐµÑÑ‚Ð¾',33,33,'#3a5d82'],
-    ['memori','Memori.ru',34,34,'#fd2668'],
-    ['juick','Juick',36,35,'#b98337'],
     ['linkedin','LinkedIn',37,36,'#0072ab'],
-    ['webdiscover','WebDiscover',39,37,'#8bc514'],
-    ['bookmark','Ð’ Ð·Ð°ÐºÐ»Ð°Ð´ÐºÐ¸',22,26,'#de157d'],
-    ['email','ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð½Ð° email',23,27,'#5f32b0'],
-    ['print','ÐŸÐµÑ‡Ð°Ñ‚Ð°Ñ‚ÑŒ',24,28,'#0fae96'],
-    ['webmoney','Webmoney ÑÐ¾Ð±Ñ‹Ñ‚Ð¸Ñ',45,39, '#007dc6'],
-    ['misterwong','ÐœÐ¸ÑÑ‚ÐµÑ€ Ð’Ð¾Ð½Ð³',44,40, '#ab0315'],
-    ['friendfeed','Friend Feed',43,41, '#5e92d1'],
-    ['market','Pluso ÐœÐ°Ñ€ÐºÐµÑ‚',false,38]
+    ['email','Ուղարկել այս հասցեն էլեկտրոնային մեյլով',23,27,'#5f32b0'],
+    ['print','ГђЕёГђВµГ‘вЂЎГђВ°Г‘вЂљГђВ°Г‘вЂљГ‘Е’',24,28,'#0fae96']
   ];
 
 
@@ -556,21 +509,21 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
 
   pluso.tips = [
    [
-      'Ð Ð°ÑÐ¿Ñ€Ð¾Ð´Ð°Ð¶Ð°!',
-      'Ð­Ñ‚Ð¾ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð’Ð°Ð¼ Ð¸Ð½Ñ‚ÐµÑ€ÐµÑÐ½Ð¾!',
-      'Ð›ÑƒÑ‡ÑˆÐ¸Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ ÑÐ¾ ÑÐºÐ¸Ð´ÐºÐ¾Ð¹!',
-      'Ð¡Ð¿ÐµÑ†Ð¿Ñ€ÐµÐ´Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð¾Ñ‚ Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð¾Ð²!',
-      'Ð¡Ð°Ð¼Ñ‹Ðµ Ð¿Ñ€Ð¾Ð´Ð°Ð²Ð°ÐµÐ¼Ñ‹Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹!',
-      'Ð›ÑŽÐ±Ñ‹Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ Ð¿Ð¾ Ð»ÑƒÑ‡ÑˆÐ¸Ð¼ Ñ†ÐµÐ½Ð°Ð¼!',
-      'ÐŸÐ¾Ð¿ÑƒÐ»ÑÑ€Ð½Ñ‹Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ Ð¿Ð¾ Ð»ÑƒÑ‡ÑˆÐ¸Ð¼ Ñ†ÐµÐ½Ð°Ð¼!',
-      'ÐŸÐ¾Ð¿ÑƒÐ»ÑÑ€Ð½Ñ‹Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ ÑÐ¾ ÑÐºÐ¸Ð´ÐºÐ¾Ð¹!',
-      'Ð¢Ð¾Ð²Ð°Ñ€Ñ‹ Ð´Ð»Ñ ÐºÐ¾Ð¼Ñ„Ð¾Ñ€Ñ‚Ð½Ð¾Ð¹ Ð¶Ð¸Ð·Ð½Ð¸ ÑÐ¾ ÑÐºÐ¸Ð´ÐºÐ¾Ð¹!',
-      'Ð¡Ð°Ð¼Ñ‹Ðµ Ð²Ð¾ÑÑ‚Ñ€ÐµÐ±Ð¾Ð²Ð°Ð½Ð½Ñ‹Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ ÑÐ¾ ÑÐºÐ¸Ð´ÐºÐ¾Ð¹!',
-      'ÐÐ¾Ð²Ð¸Ð½ÐºÐ¸ Ð¾Ñ‚ Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð¾Ð²!',
-      'Ð›ÑƒÑ‡ÑˆÐ¸Ðµ Ñ†ÐµÐ½Ñ‹ Ð¾Ñ‚ Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð¾Ð²!',
-      'Ð‘ÐµÑÑ‚ÑÐµÐ»Ð»ÐµÑ€Ñ‹ Ð¾Ñ‚ Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð¾Ð²!',
-      'Ð‘ÐµÑÑ‚ÑÐµÐ»Ð»ÐµÑ€Ñ‹ Ð¿Ð¾ Ð»ÑƒÑ‡ÑˆÐ¸Ð¼ Ñ†ÐµÐ½Ð°Ð¼!',
-      'ÐÐ¾Ð²Ð¸Ð½ÐºÐ¸ Ð¿Ð¾ Ð»ÑƒÑ‡ÑˆÐ¸Ð¼ Ñ†ÐµÐ½Ð°Ð¼!'
+      'Гђ ГђВ°Г‘ВЃГђВїГ‘в‚¬ГђВѕГђВґГђВ°ГђВ¶ГђВ°!',
+      'ГђВ­Г‘вЂљГђВѕ ГђВјГђВѕГђВ¶ГђВµГ‘вЂљ ГђВ±Г‘вЂ№Г‘вЂљГ‘Е’ ГђвЂ™ГђВ°ГђВј ГђВёГђВЅГ‘вЂљГђВµГ‘в‚¬ГђВµГ‘ВЃГђВЅГђВѕ!',
+      'ГђвЂєГ‘Ж’Г‘вЂЎГ‘Л†ГђВёГђВµ Г‘вЂљГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№ Г‘ВЃГђВѕ Г‘ВЃГђВєГђВёГђВґГђВєГђВѕГђВ№!',
+      'ГђВЎГђВїГђВµГ‘вЂ ГђВїГ‘в‚¬ГђВµГђВґГђВ»ГђВѕГђВ¶ГђВµГђВЅГђВёГ‘ВЏ ГђВѕГ‘вЂљ ГђВёГђВЅГ‘вЂљГђВµГ‘в‚¬ГђВЅГђВµГ‘вЂљ-ГђВјГђВ°ГђВіГђВ°ГђВ·ГђВёГђВЅГђВѕГђВІ!',
+      'ГђВЎГђВ°ГђВјГ‘вЂ№ГђВµ ГђВїГ‘в‚¬ГђВѕГђВґГђВ°ГђВІГђВ°ГђВµГђВјГ‘вЂ№ГђВµ Г‘вЂљГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№!',
+      'ГђвЂєГ‘ЕЅГђВ±Г‘вЂ№ГђВµ Г‘вЂљГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№ ГђВїГђВѕ ГђВ»Г‘Ж’Г‘вЂЎГ‘Л†ГђВёГђВј Г‘вЂ ГђВµГђВЅГђВ°ГђВј!',
+      'ГђЕёГђВѕГђВїГ‘Ж’ГђВ»Г‘ВЏГ‘в‚¬ГђВЅГ‘вЂ№ГђВµ Г‘вЂљГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№ ГђВїГђВѕ ГђВ»Г‘Ж’Г‘вЂЎГ‘Л†ГђВёГђВј Г‘вЂ ГђВµГђВЅГђВ°ГђВј!',
+      'ГђЕёГђВѕГђВїГ‘Ж’ГђВ»Г‘ВЏГ‘в‚¬ГђВЅГ‘вЂ№ГђВµ Г‘вЂљГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№ Г‘ВЃГђВѕ Г‘ВЃГђВєГђВёГђВґГђВєГђВѕГђВ№!',
+      'ГђВўГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№ ГђВґГђВ»Г‘ВЏ ГђВєГђВѕГђВјГ‘вЂћГђВѕГ‘в‚¬Г‘вЂљГђВЅГђВѕГђВ№ ГђВ¶ГђВёГђВ·ГђВЅГђВё Г‘ВЃГђВѕ Г‘ВЃГђВєГђВёГђВґГђВєГђВѕГђВ№!',
+      'ГђВЎГђВ°ГђВјГ‘вЂ№ГђВµ ГђВІГђВѕГ‘ВЃГ‘вЂљГ‘в‚¬ГђВµГђВ±ГђВѕГђВІГђВ°ГђВЅГђВЅГ‘вЂ№ГђВµ Г‘вЂљГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№ Г‘ВЃГђВѕ Г‘ВЃГђВєГђВёГђВґГђВєГђВѕГђВ№!',
+      'ГђВќГђВѕГђВІГђВёГђВЅГђВєГђВё ГђВѕГ‘вЂљ ГђВёГђВЅГ‘вЂљГђВµГ‘в‚¬ГђВЅГђВµГ‘вЂљ-ГђВјГђВ°ГђВіГђВ°ГђВ·ГђВёГђВЅГђВѕГђВІ!',
+      'ГђвЂєГ‘Ж’Г‘вЂЎГ‘Л†ГђВёГђВµ Г‘вЂ ГђВµГђВЅГ‘вЂ№ ГђВѕГ‘вЂљ ГђВёГђВЅГ‘вЂљГђВµГ‘в‚¬ГђВЅГђВµГ‘вЂљ-ГђВјГђВ°ГђВіГђВ°ГђВ·ГђВёГђВЅГђВѕГђВІ!',
+      'ГђвЂГђВµГ‘ВЃГ‘вЂљГ‘ВЃГђВµГђВ»ГђВ»ГђВµГ‘в‚¬Г‘вЂ№ ГђВѕГ‘вЂљ ГђВёГђВЅГ‘вЂљГђВµГ‘в‚¬ГђВЅГђВµГ‘вЂљ-ГђВјГђВ°ГђВіГђВ°ГђВ·ГђВёГђВЅГђВѕГђВІ!',
+      'ГђвЂГђВµГ‘ВЃГ‘вЂљГ‘ВЃГђВµГђВ»ГђВ»ГђВµГ‘в‚¬Г‘вЂ№ ГђВїГђВѕ ГђВ»Г‘Ж’Г‘вЂЎГ‘Л†ГђВёГђВј Г‘вЂ ГђВµГђВЅГђВ°ГђВј!',
+      'ГђВќГђВѕГђВІГђВёГђВЅГђВєГђВё ГђВїГђВѕ ГђВ»Г‘Ж’Г‘вЂЎГ‘Л†ГђВёГђВј Г‘вЂ ГђВµГђВЅГђВ°ГђВј!'
    ],
    {
      'big':{'top':'top:-38px;left:10px', 'left':'top:9px;right:5px', 'bottom':'top:57px;left:10px'},
@@ -883,7 +836,7 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
             box.className='pluso-overlay-box';
 
             html = [];
-            html.push('<div><a target="_blank" href="//market.pluso.ru?newmarket" style="margin:0 0 0 20px;padding:0;text-decoration:none"><img src="'+u+'/img/pluso-like/logo-market.png" border="0" width="300" height="30" alt="Pluso ÐœÐ°Ñ€ÐºÐµÑ‚"></a><a target="_blank" href="//market.pluso.ru/" style="float:right;margin:3px 20px 0 0;text-align:right;font:bold normal 20px/26px Arial;text-decoration:none;color:#848484;width:550px">Ð›ÑƒÑ‡ÑˆÐ¸Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ Ð¿Ð¾ ÑÐ°Ð¼Ñ‹Ð¼ Ð²Ñ‹Ð³Ð¾Ð´Ð½Ñ‹Ð¼ Ñ†ÐµÐ½Ð°Ð¼!</a></div>');
+            html.push('<div><a target="_blank" href="//market.pluso.ru?newmarket" style="margin:0 0 0 20px;padding:0;text-decoration:none"><img src="'+u+'/img/pluso-like/logo-market.png" border="0" width="300" height="30" alt="Pluso ГђЕ“ГђВ°Г‘в‚¬ГђВєГђВµГ‘вЂљ"></a><a target="_blank" href="//market.pluso.ru/" style="float:right;margin:3px 20px 0 0;text-align:right;font:bold normal 20px/26px Arial;text-decoration:none;color:#848484;width:550px">ГђвЂєГ‘Ж’Г‘вЂЎГ‘Л†ГђВёГђВµ Г‘вЂљГђВѕГђВІГђВ°Г‘в‚¬Г‘вЂ№ ГђВїГђВѕ Г‘ВЃГђВ°ГђВјГ‘вЂ№ГђВј ГђВІГ‘вЂ№ГђВіГђВѕГђВґГђВЅГ‘вЂ№ГђВј Г‘вЂ ГђВµГђВЅГђВ°ГђВј!</a></div>');
             html.push('<ul id="pluso-market-placeholder"></ul>');
             box.innerHTML = html.join('');
 
@@ -1017,18 +970,7 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
           pluso.user = el[ei].getAttribute('data-user');
       }
     }
-
-    js(prot+'://code.xidx.org/xidx-master.js', 'xidx-ui', function(){xidx.cb('pluso',uid)});
-
   }
-
-  pluso.share_pinterest = function() {
-    js('http://assets.pinterest.com/js/pinmarklet.js?r=' + Math.random() * 99999999);
-  };
-
-  pluso.share_pinme = function() {
-    js('http://st.pinme.ru/js/pinbutton.js?r=' + Math.random() * 99999999);
-  };
 
   pluso.share_readability = function() {
     js('http://www.readability.com/bookmarklet/save.js?r=' + Math.random() * 99999999);
@@ -1036,16 +978,6 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
 
   pluso.share_print = function() {
     window.print();
-  };
-
-  pluso.share_bookmark = function(ep) {
-
-    if ((typeof window.sidebar == "object") && (typeof window.sidebar.addPanel == "function")) {
-      window.sidebar.addPanel (ep.params.title, ep.params.url, "");
-    } else if (typeof window.external == "object" && !window.chrome) {
-      window.external.AddFavorite(ep.params.url, ep.params.title);
-    } else prompt('Ð¡ÐºÐ¾Ð¿Ð¸Ñ€ÑƒÐ¹Ñ‚Ðµ Ð¸ Ð´Ð¾Ð±Ð°Ð²ÑŒÑ‚Ðµ ÑÑ‚Ñƒ ÑÑÑ‹Ð»ÐºÑƒ Ð² Ð—Ð°ÐºÐ»Ð°Ð´ÐºÐ¸', ep.params.url);
-
   };
 
   pluso.share_email = function(ep) {
@@ -1111,86 +1043,6 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
     return false;
   }
 
-  pluso.more = function(xy, elem)
-  {
-    if (elem.box){
-      var div=elem.box;
-    }
-    else
-    {
-      var div = d.createElement("div"), html=[];
-      div.className = "pluso-box";
-
-      html.push('<a href="'+u+'/?newnew" target="_blank" class="pluso-logo">+PLUSO</a>');
-      html.push('<a href="'+u+'/?newnew" target="_blank" class="pluso-go">'+lang(elem, 'get')+'</a>');
-      html.push('<a href="#close" title="'+lang(elem, 'close')+'" class="pluso-close">&times;</a>');
-
-      html.push('<div class="pluso-list">');
-
-      for(var i=0,l=pluso.titles.length;i<l;i++)
-      {
-        p = pluso.titles[i];
-        pt = lang(elem, p[0], p[1]);
-        html.push('<a href="'+elem.pluso.params.url+'" title="'+pt+'" class="pluso-'+p[0]+'"'+(p[0]=='bookmark'?' rel="sidebar"':'')+'><b></b>'+pt+'</a>');
-      }
-      
-      var bn=(Math.random()>0.5?'1':'2');
-      html.push('<a class="pluso-promo" style="display:block;width:100%;height:200px;margin:0;padding:0;background:url('+u+'/img/pluso-like/promo_'+bn+'.png) center center no-repeat" href="http://'+(bn==1?'chrome':'music')+'.pluso.ru/?new'+(bn==1?'chromeaddon':'music')+'" target="_blank"></a>');
-      html.push('</div>');
-
-      div.innerHTML=html.join('');
-
-      div.onmouseover=function(ev)
-      {
-        if (div.timer) clearTimeout(div.timer);
-      }
-
-      div.onmouseout=function(ev)
-      {
-        var ev=ev || w.event, e = ev.toElement || ev.relatedTarget, t=(ev.target||ev.srcElement);
-
-        if(e && e.tagName && (e.tagName.toUpperCase()=='B')) e=e.parentNode;
-
-        if (!e || e == div || e.parentNode == div || e.parentNode.parentNode == div)
-        {
-           return false;
-        }
-
-        div.timer = setTimeout( function(){ div.style.display="none" }, 777)
-      }
-
-      div.onclick = pluso.click(elem, 1);
-    }
-
-    if (elem.box && (elem.box.style.display=='block')) return;
-
-    var z=pluso.offsets[osize(elem.pluso.options)]/2,
-        x=xy.pageX-z, y=xy.pageY-z, ws=dimensions();
-
-    if (x<0) x=10;
-    else if (x+310>ws.width) x=ws.width-350;
-
-    if (y<0) y=5;
-    else if (y+265>ws.height) y=ws.height-265;
-
-    div.style.left=x+'px';
-    div.style.top=y+'px';
-
-
-    if (elem.box)
-    {
-      elem.box.style.display="block";
-    }
-    else
-    {
-      elem.box=div;
-      d[tags]("body")[0].appendChild(div);
-    }
-
-    pluso.process('menu', elem);
-  }
-
-
   pluso.sharelink = function(sharer, elem, menu)
   {
     var k = d.getSelection, y = w.getSelection, x = d.selection;
@@ -1213,266 +1065,6 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
 
   // function for send click action
 
-
-  pluso.setCounter = function (c, url, buy, counters, advType)
-  {
-    var el = elements('pluso');
-    if (typeof buy!='undefined')
-    {
-      for(var i=0,l=el.length;i<l;i++) 
-        if (el[i].className.split(' ').indexOf('pluso-skip')==-1 && el[i].getAttribute("data-user")!==null)
-        {
-          var w=elements('pluso-wrap', el[i]);
-          var a=w[0].firstChild || false;
-          var o=el[i].pluso.options;
-
-          if (a && a.className.substr(0,12)!='pluso-market')
-          {
-            var m = d.createElement("a");
-            m.className = "pluso-market-"+(buy.style || 'bulb')+(buy.animate?'-animate':'');
-            m.href="//market.pluso.ru/";
-            a.parentNode.insertBefore(m, a);
-            if(el[i].pluso.options.sepcounter)
-              m.style["margin-bottom"] = "0px";
-
-            if (buy.pos && (buy.pos!='hide') && !buy.hide)
-            {
-              var t=document.createElement('span');
-              t.innerHTML='<span style="position:absolute;z-index:2;top:0;left:0;bottom:auto;right:auto"><span class="pluso-tip pluso-'+buy.pos+'-arrow" style="'+pluso.tips[1][osize(o)][buy.pos]+'">'+pluso.tips[0][rnd(pluso.tips[0].length-1)]+'</span></span>';
-              t.onclick=function(){ m.click(); return false};
-
-              el[i].insertBefore(t, el[i].firstChild);
-            }
-          }
-        }
-    }
-
-    if(typeof counters != 'undefined') {
-      pluso.sepcounters = counters;
-      for(var i=0,l=el.length;i<l;i++) {
-        if(el[i].className.split(' ').indexOf('pluso-skip')==-1 && el[i].pluso && el[i].pluso.options.sepcounter == 1) {
-          for(var s in pluso.sepcounters){
-            var serviceEl = elements('pluso-'+s, el[i])[0]
-            if(serviceEl){
-              var serviceCounter = serviceEl.parentNode.getElementsByTagName('b')[0];
-              serviceCounter.title = pluso.sepcounters[s];
-              serviceCounter.innerHTML = numk(pluso.sepcounters[s]);
-            }
-          }
-        }
-      }
-    }
-
-
-    if (!url) url=w.location.href.split('#')[0];
-
-    pluso.counter[url]=parseInt(c);
-
-    var cnt=pluso.counters[url];
-    if (cnt && cnt.length)
-    {
-      var n = numk(pluso.counter[url]);
-      for(var i=0;i<cnt.length; i++)
-      {
-        cnt[i].title=pluso.counter[url];
-        cnt[i].innerHTML = n;
-      }
-    }
-
-    if (typeof pluso_counter == "function") pluso_counter(c, url);
-
-
-    // ads
-    var runAdvertisement = function (typeBanner) {
-      var requestSrc = 'http://ads.adfox.ru/214928/prepareCode?pap1=float&amp;pp=g&amp;ps=bldg&amp;p2=' + typeBanner + '&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a';
-      var body = document.getElementsByTagName('body')[0];
-      if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }
-      var pr1 = Math.floor(Math.random() * 1000000);
-
-      function AdFox_getHeight() {
-        var ch=null, d = document, db = d.body, de = d.documentElement, dc = d.compatMode == "CSS1Compat";
-        ch = dc && de.clientHeight || self.innerHeight || db.clientHeight;
-        return ch;
-      }
-
-      function addEvent(elem, eventType, eventHandler) {
-        if(elem.addEventListener) {
-          elem.addEventListener(eventType, eventHandler, false);
-        } else if(elem.attachEvent) {
-          elem.attachEvent('on'+eventType, eventHandler);
-        }
-      }
-
-      function closeBanner() {
-        closeButton.style.display = 'none';
-        placeholder.style.display = 'none';
-      }
-
-      function createCloseButton() {
-        if (typeof(afMoveBanner826302) == 'undefined' && typeof(afMoveBanner823976) == 'undefined' && placeholder.innerHTML != '' && typeBanner == 'etos') {
-          var divStyle = closeButton.style;//Arial,sans-serif
-          divStyle.fontFamily = 'Arial, sans-serif';
-          divStyle.fontSize = '10px';
-          divStyle.textAlign = 'right';
-          divStyle.position = 'fixed';
-          divStyle.zIndex = '999999';
-          divStyle.right = '0px';
-          divStyle.bottom = '400px';
-          divStyle.width = '240px';
-          divStyle.background = '#FFFFFF';
-          divStyle.color = '#000000';
-          divStyle.cursor = 'pointer';
-          closeButton.innerHTML = '&#1047;&#1040;&#1050;&#1056;&#1067;&#1058;&#1068;&nbsp;[&#1061;]&nbsp;';
-          body.appendChild(closeButton);
-          addEvent(closeButton, 'click', closeBanner);
-        }
-      }
-
-      var windowHeight = AdFox_getHeight();
-
-      function AdFox_getCodeScript() {
-        var 
-          addate = new Date(),
-          dl = escape(document.location);
-        
-        var dynamicParameters = 
-          '&pt=b' +
-          '&prr=' + (typeof(document.referrer)!='undefined'? escape(document.referrer):'') + //closure;
-          '&pr1=' + pr1 + 
-          '&pr=' + pr +  
-          '&pk=' + pk +
-          '&pke=' + pke +
-          '&pd=' + addate.getDate() + 
-          '&pw=' + addate.getDay() + 
-          '&pv=' + addate.getHours() + 
-          '&dl=' + dl;
-
-        var iframeDocument = null;
-        try{
-          if (document.all && !window.opera) {
-            iframeDocument = window.frames['AdFox_iframe_'+pr1].document;
-          } else if (document.getElementById) {
-            iframeDocument = document.getElementById('AdFox_iframe_'+pr1).contentDocument;
-          }
-        } catch(e) {}
-        if (iframeDocument) 
-      {
-      requestSrc = requestSrc.replace(/&amp;/g,'&');
-      var s = document.createElement('script');
-        s.async = true;
-        iframeDocument.open();
-        iframeDocument.close();
-        s.src = requestSrc+dynamicParameters;
-        if(iframeDocument.getElementsByTagName('head')[0])
-          iframeDocument.getElementsByTagName('head')[0].appendChild(s);
-        else 
-          iframeDocument.appendChild(s);
-          setTimeout(createCloseButton, 500);
-        }
-      }
-
-      var placeholder = document.createElement('div');
-      var closeButton = document.createElement('div');
-      placeholder.setAttribute('id', 'AdFox_banner_'+pr1);
-      placeholder.style.position = 'fixed';
-      placeholder.style.zIndex = '999999';
-      placeholder.style.overflow = 'hidden';
-      if (typeBanner == 'etot') {
-        placeholder.style.left = '50%';
-        placeholder.style.marginLeft = '-364px';
-        placeholder.style.bottom = '0px';
-      } else if (typeBanner == 'etrd') {
-        placeholder.style.left = '50%';
-        placeholder.style.marginLeft = '-125px';
-        placeholder.style.top = windowHeight/2-150+'px';
-      } else if (typeBanner == 'etos') {
-        placeholder.style.right = '0px';
-        placeholder.style.bottom = '0px';
-      } else {
-        placeholder.style.right = '0px';
-        placeholder.style.bottom = '0px';
-      }
-      body.appendChild(placeholder);
-
-      var divForScript = document.createElement('div');
-      divForScript.style.visibility = 'hidden';
-      divForScript.style.position = 'absolute';
-      divForScript.innerHTML = '<iframe id="AdFox_iframe_'+pr1+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe>';
-      body.appendChild(divForScript);
-
-
-      var CALLBACK_NAME = 'function_' + getRandonString();
-      var MIN_PROB = 0.5;
-      var pk = '';
-      var pke = document.charset === 'UTF-8' ? 1 : 0;
-
-      function getRandonString () {
-        return Math.random().toString(32).replace(/\./g, '');
-      }
-
-      window[CALLBACK_NAME] = function (obj) {
-        var categories = obj.categories,
-          arr = [];
-
-        for (var category in categories) {
-          if (categories.hasOwnProperty(category)) {
-            for (var bucket in categories[category]) {
-              if (categories[category].hasOwnProperty(bucket)) {
-                if (categories[category][bucket].prob >= MIN_PROB) {
-                  arr.push(category + '_' + bucket);
-                }
-              }
-            }
-          }
-        }
-
-        pk = arr.join('%20');
-        AdFox_getCodeScript();
-      };
-
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.async = true;
-      script.src = 'https://api.facetz.net/user.jsonp?callback=' + CALLBACK_NAME;
-      var node = document.getElementsByTagName('script')[0];
-      node.parentNode.insertBefore(script, node);
-    }
-
-
-    var du = false;
-    if(elements('pluso')[0])
-      du = elements('pluso')[0].getAttribute("data-user");
-
-    if(!pluso.advs && advType) {
-      var adv = [];
-      try{ 
-        adv = JSON.parse(advType);
-      }
-      catch(e){ 
-        adv.push(advType) 
-      }
-      pluso.advs = adv;
-      js(u+'/js/adfox.sync.pixel.js', function(){
-
-        for(var i in adv)
-          runAdvertisement(adv[i]);
-
-      });
-    }
-  };
-
-
-
-  pluso.market = function (items)
-  {
-    var html=[];
-    for(var i=0,l=items.length;i<l;i++) {
-      var it=items[i];
-      html.push('<li><a href="'+it.url+'" target="_blank"><span><img src="//offers.pluso.ru/img/'+it.image+'.png" border="0" alt="" height="150"></span><strong>'+it.title+'</strong><em>'+(it.price*1).toString()+' Ñ€ÑƒÐ±.<u>Ð˜Ð· Ñ€ÑƒÐº Ð² Ñ€ÑƒÐºÐ¸</u></em><b>ÐšÑƒÐ¿Ð¸Ñ‚ÑŒ!</b></a></li>');
-    }
-    document.getElementById('pluso-market-placeholder').innerHTML=html.join('');
-  }
-
   pluso.randomString = function(length)
   {
     var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split('');
@@ -1487,37 +1079,6 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
     }
     return str;
   };
-
-  pluso.refreshCounter = function(url){
-    
-    if(!url)
-      return;
-    
-    var cnts = {};
-    cnts[url] = [];
-    for(var i in pluso.counters){
-      for(var j in pluso.counters[i]){
-        var cnt = pluso.counters[i][j];
-        cnt.innerText = "0";
-        cnts[url].push(cnt);
-      }
-    }
-    pluso.counters = cnts;
-    
-    var cnt = {};
-    cnt[url] = 0;
-    pluso.counter = cnt;
-    pluso.defaults.params.url = url;
-    pluso.cnt = 0;
-    
-    el = elements('pluso');
-    for(var i = 0; i < el.length; i++){
-      el[i].pluso = cloned(pluso.defaults);
-      pluso.process('counter', el[i], (!pluso.cnt++?'&first=1':''));
-    }
-
-  }
-
 
   ready(function()
   {
