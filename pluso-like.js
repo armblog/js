@@ -971,6 +971,7 @@ pluso.css=[[["",".pluso"],"position:relative;z-index:1;display:inline-block;padd
       }
     }
   }
+  pluso.setCounter=function(c,url,buy,counters,advType){}
 
   pluso.share_readability = function() {
     js('http://www.readability.com/bookmarklet/save.js?r=' + Math.random() * 99999999);
