@@ -80,7 +80,7 @@
              width: w.innerWidth||b.clientWidth||(db && db.clientWidth),
              height:Math.max( db && db.scrollHeight, db && db.offsetHeight, b.clientHeight, b.scrollHeight, b.offsetHeight )
            }
-  }
+  } 
 
   function numk(num, mini)
   {
