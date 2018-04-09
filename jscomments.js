@@ -8,10 +8,10 @@ var jsCommentPages = function(){
 					.addClass("js-inactive-tab");
 				switch ($tab.attr("id")){
 					case "blogger-comments": 
-						$tab.prepend("<img src='http://lh6.googleusercontent.com/-_InM8Yxvqlg/Tg03QmGCkDI/AAAAAAAAAd8/Ozlnv5wP_C8/s800/blogger-white-B.png'>");
+						$tab.prepend("<img src='https://3.bp.blogspot.com/-mh8fORYnMhA/Wstzp9lg6LI/AAAAAAAAf1U/QgeljjRXDFQ4yVx71FWYsZOAFunYIzGwgCLcBGAs/s1600/blogger-white-B.png'>");
 						break;
 					case "twitter-comments":
-						$tab.prepend("<img src='http://lh6.googleusercontent.com/-7o7PRftYZaA/Tg0194rd1KI/AAAAAAAAAd4/0FEbtbBl760/s800/white-twitter-bird.png'>");
+						$tab.prepend("<img src='https://4.bp.blogspot.com/-qExtWK1THwI/Wst0JEJBpjI/AAAAAAAAf1c/SFf2UOgg4VcYNSGDgL3fmUsA2bJeLfgrwCLcBGAs/s1600/white-twitter-bird.png'>");
 						break;
 					case "fb-comments":
 						$tab.prepend("<img src='https://4.bp.blogspot.com/-y5iHWqLO33k/V-TlS1XbuKI/AAAAAAAAbwc/okZqvA67OoswRK3HGrB2LcrIOlryD3XnACLcB/s1600/fb.png'>");
