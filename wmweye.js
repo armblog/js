@@ -9,9 +9,9 @@
 	  $('#wimg').attr('src', weather.image).load(function() { 
 	  html = '<img id="wtmpimg">';
 	  $("#weather-term").html(html);
-	  if(weather.temp<20)
+	  if(weather.temp<15)
       {
-		$('#wtmpimg').attr('src', 'https://sites.google.com/site/freewebspace11/images/cold.png').load(function() {
+		$('#wtmpimg').attr('src', 'https://1.bp.blogspot.com/-xn72czPPRq8/YEh6ZKDkxYI/AAAAAAAAmKM/Bjrrh7fRN5YxSmE3zKPGYxl8YGeKt-4hQCLcBGAsYHQ/s16000/cold.png').load(function() {
 			loadTemperature();
 		});
       }
