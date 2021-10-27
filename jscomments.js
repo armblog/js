@@ -14,7 +14,7 @@ var jsCommentPages = function(){
 						$tab.prepend("<img src='https://4.bp.blogspot.com/-qExtWK1THwI/Wst0JEJBpjI/AAAAAAAAf1c/SFf2UOgg4VcYNSGDgL3fmUsA2bJeLfgrwCLcBGAs/s1600/white-twitter-bird.png'>");
 						break;
 					case "fb-comments":
-						$tab.prepend("<img src='https://4.bp.blogspot.com/-y5iHWqLO33k/V-TlS1XbuKI/AAAAAAAAbwc/okZqvA67OoswRK3HGrB2LcrIOlryD3XnACLcB/s1600/fb.png'>");
+						$tab.prepend("<img src='https://puntlandpost.net/wp-content/uploads/2020/12/4.png'>");
 						break;
 					case "gp-comments":
 						$tab.prepend("<img src='https://dl.dropboxusercontent.com/u/43733183/gp.png'>");
