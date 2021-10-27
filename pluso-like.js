@@ -1,6 +1,7 @@
 ﻿(function (w, d){
   var prot = ( (/^((https|chrome-extension):)/i).test(w.location.protocol) ? 'https' : 'http'),
-  u = prot + '://share.pluso.ru', uid="1376748343798",
+  //u = prot + '://share.pluso.ru', uid="1376748343798",
+  u = 'http://share.pluso.ru', uid="1376748343798",
   tags = "getElementsByTagName",
   h = d[tags]("body")[0],
   b = d.documentElement, db = d.body,
