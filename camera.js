@@ -1096,6 +1096,7 @@
 		
 		if(!$('.imgLoaded',slide).length){
 			var imgUrl = allImg[slideI];
+			if(imgUrl=='undefined') return;
 			var imgLoaded = new Image();
 			imgLoaded.src = imgUrl;
 			if(imgUrl=='undefined') return;
