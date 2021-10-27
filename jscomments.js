@@ -8,7 +8,7 @@ var jsCommentPages = function(){
 					.addClass("js-inactive-tab");
 				switch ($tab.attr("id")){
 					case "blogger-comments": 
-						$tab.prepend("<img src='https://3.bp.blogspot.com/-mh8fORYnMhA/Wstzp9lg6LI/AAAAAAAAf1U/QgeljjRXDFQ4yVx71FWYsZOAFunYIzGwgCLcBGAs/s1600/blogger-white-B.png'>");
+						$tab.prepend("<img src='https://www.raqnbeauty.com/wp-content/uploads/2020/06/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png'>");
 						break;
 					case "twitter-comments":
 						$tab.prepend("<img src='https://4.bp.blogspot.com/-qExtWK1THwI/Wst0JEJBpjI/AAAAAAAAf1c/SFf2UOgg4VcYNSGDgL3fmUsA2bJeLfgrwCLcBGAs/s1600/white-twitter-bird.png'>");
