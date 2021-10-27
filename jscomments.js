@@ -14,7 +14,7 @@ var jsCommentPages = function(){
 						$tab.prepend("<img src='https://4.bp.blogspot.com/-qExtWK1THwI/Wst0JEJBpjI/AAAAAAAAf1c/SFf2UOgg4VcYNSGDgL3fmUsA2bJeLfgrwCLcBGAs/s1600/white-twitter-bird.png'>");
 						break;
 					case "fb-comments":
-						$tab.prepend("<img height='25' src='https://1.bp.blogspot.com/-UCtNsHEyRv4/YXlBhjAy-PI/AAAAAAAAnxM/OIXzM7Vd4WoagLrdCWDt8wDrVXK2kAmEACLcBGAsYHQ/w200-h188/PngItem_2690228.png'>");
+						$tab.prepend("<img src='https://1.bp.blogspot.com/-UCtNsHEyRv4/YXlBhjAy-PI/AAAAAAAAnxM/OIXzM7Vd4WoagLrdCWDt8wDrVXK2kAmEACLcBGAsYHQ/w200-h188/PngItem_2690228.png'>");
 						break;
 					case "gp-comments":
 						$tab.prepend("<img src='https://dl.dropboxusercontent.com/u/43733183/gp.png'>");
