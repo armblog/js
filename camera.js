@@ -1097,7 +1097,8 @@
 		if(!$('.imgLoaded',slide).length){
 			var imgUrl = allImg[slideI];
 			var imgLoaded = new Image();
-			//imgLoaded.src = imgUrl;
+			imgLoaded.src = imgUrl;
+			console.log(imgUrl);
 			slide.css('visibility','hidden');
 			slide.prepend($(imgLoaded).attr('class','imgLoaded').css('visibility','hidden'));
 			var wT, hT;
